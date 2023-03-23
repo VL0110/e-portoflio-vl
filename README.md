@@ -1,2 +1,3 @@
 # e-portoflio-vl
-Voici mon e-portfolio en ligne
+
+Site de présentation de mon parcours professionnel.
