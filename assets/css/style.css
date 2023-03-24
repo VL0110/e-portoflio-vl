@@ -1,31 +1,4 @@
 
-
-/*
-Author: Bootstrap Themes
-Author URI: http://bootstrapthemes.co
-*/
-
-/*==========================================
- 01.  PREDIFINEED (FROM 1 TO 780 )
- 02.  PRELOADER - LINE NO 786
- 03.  NAVIGATION - LINE NO 930
- 04.  HOME - LINE NO 1150
- 05.  THU FEATURE - LINE NO 1280
- 06.  THU FLIDE - LINE NO 1355
- 07.  THU SERVICE - LINE NO 1385
- 08.  PORTFOLIO - LINE NO 1444
- 09.  THU SOLUTION - LINE NO 1620
- 10.  THU TEAM - LINE NO 1658
- 11.  THU CLIENTS FEEDBACK - LINE NO 1730
- 12. THU BLOG - LINE NO 1848
- 13. THU SUBCRIBS - LINE NO 1935
- 14. FOOTER - LINE NO 2020
-==========================================*/
-
-
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
 html,
 body {
     background-color:#fafafa;
@@ -39,19 +12,9 @@ body {
     font-family: 'gotham_bookregular';
 }
 
-/*------------------------------------------------------------------*/
-/*   IE10 in Windows 8 and Windows Phone 8 Bug fix
-/*-----------------------------------------------------------------*/
-
-@-webkit-viewport { width: device-width; }
-@-moz-viewport { width: device-width; }
 @-ms-viewport { width: device-width; }
 @-o-viewport { width: device-width; }
 @viewport { width: device-width; }
-
-/*
-    Page Content
-------------------------------------------*/
 
 .page-content, 
 section { overflow: hidden; }
@@ -102,20 +65,6 @@ section { overflow: hidden; }
     padding-bottom: 40px;
 }
 
-
-/*text color*/
-
-.text-muted{}
-
-.text-primary{color: #fc6a42 !important;;}
-.text-finence{color:#13A0B2 !important;;}
-.text-mega{color:#fc6a42 !important;;}
-.text-white{color:#fff !important;;}
-.text-black{color:#000 !important;}
-
-.text-warning{}
-.text-danger{}
-
 .disabled{
     cursor: not-allowed;
 }
@@ -124,21 +73,13 @@ section { overflow: hidden; }
 .lightbg {
     background-color: #f2f2f2;
 }
-.bg-primary{background-color: #1E8BC3;}
+.bg-primary{background-color: #937D64;}
 .bg-finence{background-color:#13A0B2;}
 .bg-mega{background-color:#6a6b6c;}
 .bg-grey{background-color: #f5f5f5;}
 .bg-black{background-color: #353854;}
 .bg-white{background-color: #fff;}
 
-img {
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-    -user-select: none;
-    -webkit-user-drag: none;
-    -user-drag: none;
-}
 a,
 a:hover,
 a:active,
@@ -420,18 +361,11 @@ Button
     padding: 0.4rem 3rem;
 }
 .btn-primary:hover{
-    background-color: #eff5f7;
-    border-color: #eff5f7;
-    color:#4466c9;
+    background-color: white;
+    border-color: #937D64;
+    color:#937D64;
 }
 
-
-/*
-socail icon
---------------------------------*/
-/*
-Extra height css
-*/
 .m-0{
     margin:0 !important;
 }
@@ -636,7 +570,6 @@ p-0{
     padding-right: 5.714rem;
 }
 
-/*padding*/
 .padding-twenty {
     padding: 10px 0;
 }
@@ -650,15 +583,12 @@ p-0{
     padding: 40px 0;
 }
 
-/*border*/
 .no-border-top{
     border-top:0px solid transparent !important;
 }
 .no-border-rigth{
     border-right:0px solid transparent !important;
 }
-
-/*for placeholder changes*/
 
 input[type="email"].form-control::-webkit-input-placeholder {
     color: #fff;
@@ -702,19 +632,6 @@ textarea::-ms-input-placeholder{
     padding: 5px;
 }
 
-/*for image bg*/
-/*.img-bg{
-  background: url(../images/home-msg.jpg) no-repeat center top fixed;
-  background-size
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  width: 100%;
-  overflow: hidden;
-}*/
-
-
 .transform_scal_rotate:hover img{ 
     -webkit-transform: scale(1.1) rotate(4deg); 
     transform: scale(1.1) rotate(4deg); 
@@ -727,9 +644,8 @@ textarea::-ms-input-placeholder{
 .fix{
     overflow: hidden;
 }
-/*heading title all area*/
+
 .head_title{
-    /*padding-bottom: 7.143rem;*/
     overflow: hidden;
 }
 .head_title h2{
@@ -743,11 +659,6 @@ textarea::-ms-input-placeholder{
     color:#999999;
 }
 
-/*End off pridifain css*/
-
-
-
-/*Preloader*/
 #loading{
     background-color: #fc6a42;
     height: 100%;
@@ -787,7 +698,6 @@ textarea::-ms-input-placeholder{
 
 }
 
-
 #object_one {
     -webkit-animation: object_one 1.5s infinite;
     animation: object_one 1.5s infinite;
@@ -818,8 +728,6 @@ textarea::-ms-input-placeholder{
     }
 }
 
-
-
 @-webkit-keyframes object_one {
     25% { -webkit-transform: translate(0,-50px) rotate(-180deg); }
     100% { -webkit-transform: translate(0,0) rotate(-180deg); }
@@ -836,7 +744,6 @@ textarea::-ms-input-placeholder{
         -webkit-transform: translate(0,0) rotate(-180deg);
     }
 }
-
 
 @-webkit-keyframes object_two {
     25% { -webkit-transform: translate(50px,0) rotate(-180deg); }
@@ -870,7 +777,6 @@ textarea::-ms-input-placeholder{
     }
 }
 
-
 @-webkit-keyframes object_four {
     25% { -webkit-transform: translate(0,50px) rotate(-180deg); }
     100% { -webkit-transform: translate(0,0) rotate(-180deg); }
@@ -886,12 +792,6 @@ textarea::-ms-input-placeholder{
         -webkit-transform: translate(0,0) rotate(-180deg);
     }
 }
-/*End off Preloader*/
-
-
-/*
-Nav Menu style
-==================*/
 
 .navbar-brand {
     padding: 30px 15px;
@@ -901,10 +801,6 @@ Nav Menu style
 .main-nav li{
     padding: 10px 0;
 }
-
-/*
-Home Section style
-==================*/
 
 .home{
     background: url(../images/dream.png) no-repeat center center;
@@ -946,9 +842,6 @@ Home Section style
     border-color:#937D64;
 }
 
-
-/*scrooldown
--------------------*/ 
 
 @-webkit-keyframes scroll-ani {
     0% {
@@ -1057,9 +950,7 @@ Home Section style
     margin-top: 0;
 }
 
-/*
-About us section style
-========================*/
+
 .about_content{
     position: relative;
 }
@@ -1110,15 +1001,11 @@ About us section style
     color:#81858f;
 }
 
-/*
-Portfolio Section style
-=====================*/
-
 .portfolio_btn{
     width:100%;
     display: inline-block;
 }
-.photography{}
+
 .photography img{
     box-shadow: -10px -10px 0px 0px #e0ecf0;
 }
@@ -1137,12 +1024,8 @@ Portfolio Section style
     width:100%;
 }
 
-/*
-Choose Section style
-=====================*/
-.choose_list_item{}
+
 .choose_icon{
-    float: left;
     width:10%;
     display: inline-block;
 }
@@ -1153,14 +1036,8 @@ Choose Section style
     width:60%;
     display: inline-block;
 }
-.list_item_text h5{}
-.list_item_text p{
 
-}
 
-/*
-Footer Section style
-=====================*/
 .about_content .about_content_text,
 .portfolio_content .portfolio_content_text,
 .choose_item .choose_item_text,
@@ -1177,6 +1054,9 @@ Footer Section style
     transform: rotate(-90deg);
 }
 .head_right h2{
+    color:#937D64;
+}
+.main-contact .head_right h2{
     color:#e0ecf0;
 }
 .choose_item .head_right{
@@ -1214,8 +1094,6 @@ Footer Section style
     font-family: 'Knewave', cursive;
 }
 
-/*copyright
-==================*/
 .copyright p i {
     padding: 0px 10px;
     color: #667189;
@@ -1223,4 +1101,39 @@ Footer Section style
 .copyright p a {
     padding: 0px 10px;
     color: #667189;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+main {
+    display: flex;
+    flex-direction: center;
+}
+.about_left_item img {
+    height: 50%;
+    width: 50%;
+}
+.col-sm-6 img 
+{
+    height: 50%;
+    width: 50%;
+}
+}
+@media screen and (max-width: 767px) {
+
+    main {
+        display: flex;
+        flex-direction: center;
+        padding-left: 5%;
+    }
+    .about_left_item img {
+        height: 70%;
+        width: 70%;
+    }
+    .col-sm-6 img 
+    {
+        height: 70%;
+        width: 70%;
+    }
+
 }
