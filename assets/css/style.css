@@ -176,7 +176,7 @@ h6 {
 h1 {
     font-size: 3rem;
     line-height: 4rem;
-    color:#937D64;
+    color:#e0ecf0;
 }
 h2 {
     font-size: 2.5rem;
@@ -803,7 +803,7 @@ textarea::-ms-input-placeholder{
 }
 
 .home{
-    background: url(../images/dream.png) no-repeat center center;
+    background: url(../images/dream.jpg) no-repeat center center;
     background-size: cover;
     position: relative;
     height: 1000px;
@@ -1025,12 +1025,15 @@ textarea::-ms-input-placeholder{
 }
 
 
+.choose_list_item{}
 .choose_icon{
+    float: left;
     width:10%;
     display: inline-block;
 }
 .choose_icon i{
     font-size:1.5rem;
+    position: relative;
 }
 .list_item_text{
     width:60%;
@@ -1038,13 +1041,19 @@ textarea::-ms-input-placeholder{
 }
 
 
-.about_content .about_content_text,
-.portfolio_content .portfolio_content_text,
-.choose_item .choose_item_text,
-.contact_content .contact_content_text{
-    margin-top:-60px;
+.about_content .about_content_text
+{
+    margin-top: -50px;
 }
-
+.portfolio_content .portfolio_content_text{
+    margin-top: -60px;
+}
+.choose_item .choose_item_text{
+    margin-top:-125px;
+}
+.contact_content .contact_content_text{
+    margin-top:-5px;
+}
 .about_content .head_right,
 .portfolio_content .head_right,
 .choose_item .head_right,
@@ -1067,6 +1076,10 @@ textarea::-ms-input-placeholder{
 }
 .portfolio_content .head_right{
     top: -160px;
+}
+
+#contact {
+    display: flex;
 }
 .contact_content .head_right{
     top: -122px;
@@ -1103,6 +1116,15 @@ textarea::-ms-input-placeholder{
     color: #667189;
 }
 
+.about_left_item2 img{
+    height: 40%;
+    width: 40%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 10px -10px 0px 10px #e0ecf0;
+}
+
+
 @media screen and (min-width: 768px) and (max-width: 992px) {
 
 main {
@@ -1119,6 +1141,7 @@ main {
     width: 50%;
 }
 }
+
 @media screen and (max-width: 767px) {
 
     main {
