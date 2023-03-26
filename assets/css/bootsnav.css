@@ -415,7 +415,7 @@ body.on-side{
 
 .side .widget ul.link li a:focus,
 .side .widget ul.link li a:hover{
-    color: #fff;
+    color: #fc6a42;
     text-decoration: none;
 }
 
@@ -997,6 +997,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
         float: none !important;
         margin: 0 !important;
     }
+
     
     nav.navbar.bootsnav .navbar-header {
         float: none;
