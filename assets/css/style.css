@@ -165,7 +165,7 @@ h6 {
 h1 {
     font-size: 3rem;
     line-height: 4rem;
-    color:#A7BED3;
+    color:#404859;
 }
 h2 {
     font-size: 2.5rem;
@@ -344,15 +344,15 @@ ul{
 }
 .btn-primary{
     color: white;
-    background-color: #fc6a42;
+    background-color: #404859;
     border:1px solid;
-    border-color: #fc6a42;
+    border-color: #404859;
     padding: 0.4rem 3rem;
 }
 .btn-primary:hover{
     background-color: white;
-    border-color: #fc6a42;
-    color:#fc6a42;
+    border-color: #404859;
+    color:#404859;
 }
 
 .m-0{
@@ -821,13 +821,13 @@ textarea::-ms-input-placeholder{
     font-size:24px;
 }
 .home_btns .btn-primary{
-    background-color: #fc6a42;
+    background-color: #404859;
     color:white;
-    border-color:#fc6a42;
+    border-color:#404859;
 }
 .home_btns .btn-primary:hover{
     background-color: white;
-    color:#fc6a42;
+    color:#404859;
     border-color:white;
 }
 
