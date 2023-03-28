@@ -3,7 +3,7 @@ html,
 body {
     background-color:#fafafa;
     font-size: 16px;
-    color: #797979;
+    color: #404859;
     width: 100%;
     padding: 0;
     margin-left: 0;
@@ -19,16 +19,6 @@ body {
 .page-content, 
 section { overflow: hidden; }
 
-/*
-    On Scroll Animations 
-------------------------------------------*/
-
-/*.animated { visibility: hidden; }
-.visible { visibility: visible; }*/
-
-/*
-    Spacing & Alignment 
-------------------------------------------*/
 
 .roomy-150 {
     padding-top: 150px;
@@ -107,7 +97,6 @@ a {
 *:before,
 *:after {
     box-sizing: border-box;
-    /*    direction: rtl;*/
 }
 
 p {
@@ -192,7 +181,12 @@ h4 {
 }
 h5 {
     font-size: 1.125rem;
-    line-height: 1.575rem
+    line-height: 1.575rem;
+
+}
+.author_text h5 {
+    font-size: 1.5rem;
+    margin-right: 40px;
 }
 h6 {
     font-size: 1rem;
@@ -216,7 +210,7 @@ p:last-child {
     margin-bottom: 0px;
     margin-right: 40px;
 }
-/*colors*/
+
 .w100 {
     font-weight: 100;
 }
@@ -250,9 +244,7 @@ p:last-child {
 }
 
 
-/*
-Section
-*/
+
 
 .parallax-section {
     max-width: 100%;
@@ -265,7 +257,6 @@ ul{
     list-style:none;
 }
 
-/*all overlay*/
 .overlay_dot{
     background: url(../images/overlay-img.png) no-repeat top center;
     background-color: rgba(51,51,51,0.75);
@@ -320,9 +311,7 @@ ul{
 }
 
 
-/*
-Separator
-*/
+
 .separator_left{
     width:85px;
     height:2px;
@@ -342,9 +331,8 @@ Separator
     background: #fc6a42;
 }
 
-/*
-Button
-*/
+
+
 .btn{
     -webkit-transition: all 0.6s;
     transition: all 0.6s;
@@ -355,16 +343,16 @@ Button
     outline:0;
 }
 .btn-primary{
-    color: #fff;
-    background-color: #937D64;
+    color: white;
+    background-color: #fc6a42;
     border:1px solid;
-    border-color: #937D64;
+    border-color: #fc6a42;
     padding: 0.4rem 3rem;
 }
 .btn-primary:hover{
     background-color: white;
-    border-color: #937D64;
-    color:#937D64;
+    border-color: #fc6a42;
+    color:#fc6a42;
 }
 
 .m-0{
@@ -804,7 +792,7 @@ textarea::-ms-input-placeholder{
 }
 
 .home{
-    background: url(../images/dream.png) no-repeat center center;
+    background: url(../images/dream.webp) no-repeat center center;
     background-size: cover;
     position: relative;
     height: 1000px;
@@ -833,14 +821,14 @@ textarea::-ms-input-placeholder{
     font-size:24px;
 }
 .home_btns .btn-primary{
-    background-color: #fff;
-    color:#937D64;
-    border-color:#fff;
+    background-color: #fc6a42;
+    color:white;
+    border-color:#fc6a42;
 }
 .home_btns .btn-primary:hover{
-    background-color: #937D64;
-    color:#fff;
-    border-color:#937D64;
+    background-color: white;
+    color:#fc6a42;
+    border-color:white;
 }
 
 
@@ -984,14 +972,18 @@ textarea::-ms-input-placeholder{
 }
 .about_content_item ul li{
     margin-left: 20px;
-    line-height: 2rem;
+    line-height: 2.1rem;
 }
 .about_content_item ul li a{
     color:#404859;
     font-family: 'gotham_bookregular';
 }
+.about_content_item ul li a:hover{
+    color:#fc6a42;
+    font-family: 'gotham_bookregular';
+}
 .about_content_item ul li a i{
-    font-size:0.5rem;
+    font-size:0.7rem;
     margin-right: 5px;
 }
 .about_left_item img{
@@ -1029,7 +1021,9 @@ textarea::-ms-input-placeholder{
 }
 
 
-.choose_list_item{}
+.choose_list_item{
+    display: inline-block;
+}
 .choose_icon{
     float: left;
     width:10%;
@@ -1093,17 +1087,20 @@ textarea::-ms-input-placeholder{
 }
 
 .contact_content_text ul li{
-    line-height: 2rem;
+    line-height: 2.2rem;
 }
+.contact_content_text ul li a{
+    font-size: 17px;
+}
+.contact_content_text .rue,
 .contact_content_text .phone,
 .contact_content_text .info{
-    font-size:18px;
+    font-size:16px;
     font-family: 'gotham_boldregular';
 }
 
-.author_text h5,
 .author_text h6{
-    font-size:18px;
+    font-size:16px;
     font-family: 'gotham_bookregular';
 }
 .author_text h6{
