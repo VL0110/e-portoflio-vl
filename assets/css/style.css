@@ -9,7 +9,7 @@ body {
     margin-left: 0;
     margin-right: 0;
     width:100%;
-    font-family: 'gotham_bookregular';
+    font-family: 'Lora', 'Poppins', serif;
 }
 
 @-ms-viewport { width: device-width; }
@@ -166,6 +166,7 @@ h1 {
     font-size: 3rem;
     line-height: 4rem;
     color:#404859;
+    font-family: 'Lora', 'Poppins', serif;
 }
 h2 {
     font-size: 2.5rem;
@@ -812,12 +813,12 @@ textarea::-ms-input-placeholder{
     top: 0px;
 }
 .home_text h1{
-    font-family: 'gothamregular';
-    font-size:100px;
+    font-family: 'Lora', 'Poppins', serif;
+    font-size:50px;
     line-height: 5.5rem;
 }
 .home_text h4{
-    font-family: 'gotham_lightregular';
+    font-family: 'Lora', 'Poppins', serif;
     font-size:24px;
 }
 .home_btns .btn-primary{
@@ -959,10 +960,10 @@ textarea::-ms-input-placeholder{
 }
 .about_content p{
     font-size:16px;
-    font-family: 'gotham_bookregular';
+    font-family: 'Lora', 'Poppins', serif;
 }
 .about_content_item h6{
-    font-family: 'gotham_bookregular';
+    font-family: 'Lora', 'Poppins', serif;
 }
 .about_content_item h6 i{
     margin-right: 10px;
@@ -976,11 +977,11 @@ textarea::-ms-input-placeholder{
 }
 .about_content_item ul li a{
     color:#404859;
-    font-family: 'gotham_bookregular';
+    font-family: 'Lora', 'Poppins', serif;
 }
 .about_content_item ul li a:hover{
     color:#fc6a42;
-    font-family: 'gotham_bookregular';
+    font-family: 'Lora', 'Poppins', serif;
 }
 .about_content_item ul li a i{
     font-size:0.7rem;
@@ -1073,7 +1074,7 @@ textarea::-ms-input-placeholder{
     top: -100px;
 }
 .about_content .head_right{
-    top: -93px;
+    top: -150px;
 }
 .portfolio_content .head_right{
     top: -160px;
@@ -1096,12 +1097,12 @@ textarea::-ms-input-placeholder{
 .contact_content_text .phone,
 .contact_content_text .info{
     font-size:16px;
-    font-family: 'gotham_boldregular';
+    font-family: 'Poppins', 'Lora', serif;
 }
 
 .author_text h6{
     font-size:16px;
-    font-family: 'gotham_bookregular';
+    font-family: 'Poppins', 'Lora', serif;
 }
 .author_text h6{
     letter-spacing: 2px;
@@ -1109,7 +1110,7 @@ textarea::-ms-input-placeholder{
 }
 .author_text h1{
     font-size:48px;
-    font-family: 'Knewave', cursive;
+    font-family: 'Knewave', serif;
     margin-right: 40px;
 }
 
@@ -1131,40 +1132,3 @@ textarea::-ms-input-placeholder{
 }
 
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
-
-main {
-    display: flex;
-    flex-direction: center;
-}
-.about_left_item img {
-    height: 50%;
-    width: 50%;
-}
-.col-sm-6 img 
-{
-    height: 50%;
-    width: 50%;
-}
-}
-
-@media screen and (max-width: 767px) {
-
-    main {
-        display: flex;
-        flex-direction: center;
-        padding-left: 5%;
-        margin-left: 10px;
-    }
-    img { margin-left: 10px;}
-    .about_left_item img {
-        height: 70%;
-        width: 70%;
-    }
-    .col-sm-6 img 
-    {
-        height: 70%;
-        width: 70%;
-    }
-
-}
