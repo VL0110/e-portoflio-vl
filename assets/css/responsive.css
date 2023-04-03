@@ -10,16 +10,16 @@
         width: 65%;
     }
     .about_content .head_right {
-        top: -110px;
+        top: -120px;
     }
     .portfolio_content .head_right {
-        top: -110px;
+        top: -120px;
     }
     .choose_item .head_right {
-        top: -60px;
+        top: -50px;
     }
     .contact_content .head_right {
-        top: -70px;
+        top: -65px;
     }
 
 
@@ -64,16 +64,16 @@
     }
 
     .about_content .head_right {
-        top: -224px;
+        top: -300px;
     }
     .portfolio_content .head_right {
-        top: -240px;
+        top: -255px;
     }
     .choose_item .head_right {
-        top: -230px;
+        top: -220px;
     }
     .contact_content .head_right {
-        top: -205px;
+        top: -195px;
     }
     .home_text h1 {
         font-size: 5rem;

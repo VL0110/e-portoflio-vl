@@ -9,7 +9,7 @@ body {
     margin-left: 0;
     margin-right: 0;
     width:100%;
-    font-family: 'Lora', 'Poppins', serif;
+    font-family: 'Poppins', serif;
 }
 
 @-ms-viewport { width: device-width; }
@@ -166,10 +166,10 @@ h1 {
     font-size: 3rem;
     line-height: 4rem;
     color:#404859;
-    font-family: 'Lora', 'Poppins', serif;
+    font-family: 'Knewave', serif;
 }
 h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     line-height: 3rem;
 }
 h3 {
@@ -813,13 +813,15 @@ textarea::-ms-input-placeholder{
     top: 0px;
 }
 .home_text h1{
-    font-family: 'Lora', 'Poppins', serif;
-    font-size:50px;
-    line-height: 5.5rem;
+    font-family: 'Playfair Display', serif;
+    font-size:40px;
+    line-height: 5rem;
+    letter-spacing: 1px;
 }
 .home_text h4{
-    font-family: 'Lora', 'Poppins', serif;
-    font-size:24px;
+    font-family: 'Playfair Display', serif;
+    font-size:18px;
+    letter-spacing: 1px;
 }
 .home_btns .btn-primary{
     background-color: #404859;
@@ -960,10 +962,10 @@ textarea::-ms-input-placeholder{
 }
 .about_content p{
     font-size:16px;
-    font-family: 'Lora', 'Poppins', serif;
+    font-family: 'Poppins', serif;
 }
 .about_content_item h6{
-    font-family: 'Lora', 'Poppins', serif;
+    font-family: 'Poppins', serif;
 }
 .about_content_item h6 i{
     margin-right: 10px;
@@ -977,11 +979,11 @@ textarea::-ms-input-placeholder{
 }
 .about_content_item ul li a{
     color:#404859;
-    font-family: 'Lora', 'Poppins', serif;
+    font-family: 'Poppins', serif;
 }
 .about_content_item ul li a:hover{
     color:#fc6a42;
-    font-family: 'Lora', 'Poppins', serif;
+    font-family: 'Poppins', serif;
 }
 .about_content_item ul li a i{
     font-size:0.7rem;
@@ -1071,20 +1073,20 @@ textarea::-ms-input-placeholder{
     color:#e0ecf0;
 }
 .choose_item .head_right{
-    top: -100px;
+    top: -85px;
 }
 .about_content .head_right{
-    top: -150px;
+    top: -165px;
 }
 .portfolio_content .head_right{
-    top: -160px;
+    top: -170px;
 }
 
 #contact {
     display: flex;
 }
 .contact_content .head_right{
-    top: -122px;
+    top: -110px;
 }
 
 .contact_content_text ul li{
@@ -1097,12 +1099,12 @@ textarea::-ms-input-placeholder{
 .contact_content_text .phone,
 .contact_content_text .info{
     font-size:16px;
-    font-family: 'Poppins', 'Lora', serif;
+    font-family: 'Poppins', serif;
 }
 
 .author_text h6{
     font-size:16px;
-    font-family: 'Poppins', 'Lora', serif;
+    font-family: 'Poppins', serif;
 }
 .author_text h6{
     letter-spacing: 2px;

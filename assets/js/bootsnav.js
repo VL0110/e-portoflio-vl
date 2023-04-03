@@ -11,7 +11,6 @@
             let getNav = $("nav.navbar.bootsnav");
             let navSticky = getNav.hasClass("navbar-sticky");
             if( navSticky ){
-                // Wraped navigation
                 getNav.wrap("<div class='wrap-sticky'></div>");
             }   
             if( getNav.hasClass("brand-center")){                
