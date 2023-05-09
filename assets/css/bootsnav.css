@@ -350,7 +350,7 @@ body.on-side{
     padding: 25px 30px;
     height: 100%;
     display: block;
-    background-color: #66512c;
+    background-color: #443139;
     -webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
@@ -395,7 +395,7 @@ body.on-side{
 
 .side .widget ul.link li a:focus,
 .side .widget ul.link li a:hover{
-    color: #fc6a42;
+    color: #FF205B;
     text-decoration: none;
 }
 
